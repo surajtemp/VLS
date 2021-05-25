@@ -2,8 +2,8 @@ html {scroll-behavior: smooth;}
 /*.full-width{float: left;width: 100%;}*/
 .home-banner-img{width: 300px;}
 a#sidemenu_toggle{right: 90px}
-a#sidemenu_toggle {right: 90px;background-color: #3636b0;padding: 8px;border-radius: 4px;width: 48px;}
-a#sidemenu_toggle span {height: 3px;margin-bottom: 5px;background-color: #ffffff !important;}
+/* a#sidemenu_toggle {right: 90px;background-color: #3636b0;padding: 8px;border-radius: 4px;width: 48px;} */
+a#sidemenu_toggle span {height: 3px;margin-bottom: 5px;background-color: #3636b0  !important;}
 a#sidemenu_toggle span:last-child {margin-bottom: 0px;}
 
 .tp-bgimg.defaultimg{position: relative;}
