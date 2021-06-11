@@ -26,7 +26,7 @@ a#sidemenu_toggle span:last-child {margin-bottom: 0px;}
 .side-tab-st li:hover{border:1px solid gray;} */
 /*----------------------------------------------------------------------------------------------------*/
 
-ul.side-tab-st {position: fixed;top: 50%;right: 10px;transform: translateY(-50%);background: #ffffffd9;width: 70px;height: auto;z-index: 1;text-align: center;border-radius: 57px;}
+ul.side-tab-st {position: fixed;top: 50%;right: 10px;transform: translateY(-50%);background: #ffffffd9;width: 70px;height: auto;z-index: 4;text-align: center;border-radius: 57px;}
 #school-lm-1 {color: #fff;background-color: #3a90e7bd;width: 100%; padding-left: 150px; padding: 100px 30px 30px 50px;}
 #school-lm-2 {color: #fff;background-color: #f79647;width: 100%;padding-left: 150px;padding: 100px 30px 30px 50px;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;}
 #school-lm-3 {color: #fff;background-color: #d74a39bd;width: 100%;padding-left: 150px;padding: 100px 30px 30px 50px;}

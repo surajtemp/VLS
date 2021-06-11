@@ -3,7 +3,7 @@ body {
     font-size: 15px;
     color: #808080;
     font-weight: normal;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'roboto';
     overflow-x: hidden;
     direction: ltr;
 }
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4, h5, .button, .numbered .tp-bullet .tp-count {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -3716,7 +3716,7 @@ iframe {
     transform: scale(1.2);
 }
 
-.overlay {
+/* .overlay {
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
     background-image: -webkit-linear-gradient(to right, #23ced5aa 0%, #5192e1aa 100%);
@@ -3732,7 +3732,7 @@ iframe {
     width: 100%;
     left: 0;
     top: 0;
-}
+} */
 
 .overlay-blue {
     background-image: -webkit-linear-gradient(to right, #23ced5 0%, #5192e1 100%);
@@ -6507,4 +6507,49 @@ canvas {
 .svg-banner svg{
     width: 68%;
     height: auto;
+}
+
+
+
+
+.bg-video-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover;
+  }
+  video {
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+  }
+  .overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:rgba(0,0,0,0.8);
+    background-size: 3px 3px;
+    background-size: 3px 3px;
+    z-index: 0;
+  }
+  .hero-content-h {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 3;
+  }
+
+  .Product-features-section{
+    padding: 30px 0px;
+  }
+
+.custom-text h1{
+    margin-bottom: 20px;
 }
