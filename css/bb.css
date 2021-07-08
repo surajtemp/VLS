@@ -88,7 +88,7 @@ a.back-top.back-top-visible{display: none !important;}
 .side-footer ul.social-icons-simple + p {padding-left: 30px;}
 
 #background-vid {position: absolute;top: -100px;left: -200px;width: calc(100% + 220px) !important;z-index: -1;}
-.banner-section{position: relative;background-color: #3636b0c4;overflow: hidden;}/*#3636b07a*/
+.banner-section{position: relative;background-color: #101025c4;overflow: hidden;}/*#3636b07a*/
 nav.navbar #sidemenu_toggle span {background-color: #ffffff !important;}
 nav.navbar.fixedmenu #sidemenu_toggle span {background-color: #3636b0 !important;}
 
