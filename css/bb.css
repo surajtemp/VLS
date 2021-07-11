@@ -63,6 +63,7 @@ a.back-top.back-top-visible{display: none !important;}
 .wwa-section *{color: #ffffff;}
 .wwa-section .wwa-sec-title {font-size: 40px;margin-bottom: 30px;line-height: initial;float: left;width: 100%;font-weight: 400;position: relative;}
 .wwa-sec-title:after {content: '';display: inline-block;position: absolute;bottom: 0px;left: 0px;width: 70px;border-bottom: solid 3px #ffffff;}
+.wwa-sec-title.psudo-after-hide:after{content: none;}
 .wwa-company-img {float: left;width: 100%;padding-bottom: 30px;}
 .wwa-section .wwa-sec-para {margin: 0px;float: left;width: 100%;font-size: 17px;line-height: 30px;text-align: justify;}
 .wwa-company-img img {width: 220px;height: 80px;object-fit: contain;margin-right: 10px;margin-bottom: 10px;}
