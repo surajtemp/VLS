@@ -94,8 +94,19 @@ nav.navbar #sidemenu_toggle span {background-color: #ffffff !important;}
 nav.navbar.fixedmenu #sidemenu_toggle span {background-color: #3636b0 !important;}
 
 #mineAnimation {margin-top: 30px;display: inline-block;margin-bottom: 35px;font-size: 52px;}
-
 .mineAnimation .wrap{animation: animated-cursor 600ms linear infinite;}
+.heading-title img{height: 65px;}
+
+.row-eq-height {
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+}
+.mission-vision-about .card {
+    min-height: 100%;
+}
+
 
 @keyframes animated-cursor{
   from{border-right-color: rgba(255,255,255,.75);}
