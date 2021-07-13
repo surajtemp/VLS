@@ -106,6 +106,32 @@ display: flex;
 .mission-vision-about .card {
     min-height: 100%;
 }
+.about-invented {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff6600;
+    margin-bottom: 40px;
+    border: solid 1px #dddddd;
+}
+.about-invented h3 {
+    padding: 0px 15px;
+    color: #ffffff;
+    min-width: 165px;
+    text-align: center;
+    font-size: 22px;
+}
+.about-invented p {
+    margin: 0px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    min-height: 110px;
+}
+
+
+
 
 
 @keyframes animated-cursor{
