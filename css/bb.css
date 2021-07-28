@@ -145,7 +145,7 @@ display: flex;
 	#features .features-learn-more {float: none;margin: 0 auto;display: table;}
 	.wwa-sec-pad{padding-bottom: 100px 0px;}
 	a#sidemenu_toggle{right: 20px}
-	#background-vid {width: calc(100% + 635px) !important;}
+	#background-vid {width: auto !important; height: 100vh;}
 }
 
 @media (min-width: 320px) and (max-width: 767px){
@@ -153,7 +153,8 @@ display: flex;
 	ul.side-tab-st{width: 50px;right: 3px;background-color: #ffffff91;}
 	.custom-img img{max-width: 300px;margin: 0 auto;display: table;}
 	.custom-text{text-align: center;margin-bottom: 30px;}
-	#background-vid {width: calc(100% + 760px) !important;}
+	#background-vid {width: auto !important; height: 100vh;}
+
 }
 
 @media (min-width: 320px) and (max-width: 1199px){
